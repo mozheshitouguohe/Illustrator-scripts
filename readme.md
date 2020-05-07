@@ -15,6 +15,8 @@ var newLayers = ["Frame", "Illustration", "Insets", "Annotations"];
 Checks if the line weights used in a document match the ones specified in the script.
 Each layer has its own defined line weights.
 
+The result if presented in a new layer named "Validation result". All strokes that have a line weight that is not according to the specification is highlighted in the specified color (default: red).
+
 ```
 var myLayers = [
                layer1 = 
